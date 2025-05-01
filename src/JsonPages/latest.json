@@ -1,0 +1,59 @@
+[
+    {
+      "name": "Bella Italia",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 4.8,
+      "reviews": 34,
+      "image": "/images/lt1.png"
+    },
+    {
+      "name": "Little Shucker",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 253,
+      "image": "/images/lt2.png"
+    },
+    {
+      "name": "Marafuku Ramen",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 3.5,
+      "reviews": 87,
+      "image": "/images/lt3.png"
+    },
+    {
+      "name": "Bottega",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 876,
+      "image": "/images/lt4.png"
+    },
+    {
+      "name": "Arabia Nights",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 3.5,
+      "reviews": 334,
+      "image": "/images/lt5.png"
+    },
+    {
+      "name": "Lokma",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 253,
+      "image": "/images/lt6.png"
+    },
+    {
+      "name": "The snug",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 4.5,
+      "reviews": 654,
+      "image": "/images/lt7.png"
+    },
+    {
+      "name": "Starbelly",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 876,
+      "image": "/images/lt8.png"
+    }
+  ]
+  

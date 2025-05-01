@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "/images/botega1.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  },
+  {
+    "id": 2,
+    "image": "/images/botega2.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  },
+  {
+    "id": 3,
+    "image": "/images/botega3.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  },
+  {
+    "id": 4,
+    "image": "/images/botega4.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  },
+  {
+    "id": 5,
+    "image": "/images/botega2.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  },
+  {
+    "id": 6,
+    "image": "/images/botega2.png",
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 876
+  }
+]
