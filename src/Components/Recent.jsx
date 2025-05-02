@@ -7,11 +7,12 @@ const activities = [
     date: "09/11/2023",
     rating: 5,
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    desp:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
     images: [
-      "/images/leslie1.jpg",
-      "/images/leslie2.jpg",
-      "/images/leslie3.jpg",
+      "/images/rt1.png",
+      "/images/rt2.png",
+      "/images/rt3.png",
     ],
   },
   {
@@ -20,11 +21,12 @@ const activities = [
     date: "14/09/2023",
     rating: 5,
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    desp:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
     images: [
-      "/images/chris1.jpg",
-      "/images/chris2.jpg",
-      "/images/chris3.jpg",
+      "/images/rt4.png",
+      "/images/rt5.png",
+      "/images/rt6.png",
     ],
   },
   {
@@ -33,29 +35,31 @@ const activities = [
     date: "28/09/2023",
     rating: 5,
     description:
-      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+    desp:"The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
     images: [
-      "/images/jojo1.jpg",
-      "/images/jojo2.jpg",
-      "/images/jojo3.jpg",
+      "/images/rt7.png",
+      "/images/rt8.png",
+      "/images/rt9.png",
     ],
   },
 ];
 
 const Recent = () => {
   return (
-    <div className="px-6 py-10">
+    <div className="px-4 md:px-12 py-10">
       <h2 className="text-2xl font-bold mb-6">Recents avtivities</h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {activities.map((activity, index) => (
           <div
             key={index}
-            className="bg-white shadow-md rounded-xl p-4 space-y-3"
+            className="bg-chaia shadow-md rounded-xl p-4 space-y-3"
           >
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gray-200 rounded-full" />
+            <div className="flex items-center gap-3 ">
+              <div className="" />
+              <img className="rounded-full p-4 bg-sada" src="images/ft.png" alt="" />
               <div>
-                <h3 className="font-semibold">{activity.name}</h3>
+                <h3 className="font-semibold font-roboto text-[21px]">{activity.name}</h3>
                 <p className="text-sm text-gray-500">{activity.location}</p>
               </div>
             </div>
@@ -67,10 +71,10 @@ const Recent = () => {
               <span className="text-gray-500 ml-2">{activity.date}</span>
             </div>
 
-            <p className="text-sm text-gray-700 font-roboto">{activity.description}</p>
-            <p className="text-sm text-gray-700">{activity.description}</p>
+            <p className="text-base text-gray-700 font-roboto font-normal">{activity.description}</p>
+            <p className="text-base text-gray-700 font-roboto font-normal">{activity.desp}</p>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 mt-8">
               {activity.images.map((img, i) => (
                 <img
                   key={i}
@@ -81,7 +85,7 @@ const Recent = () => {
               ))}
             </div>
 
-            <a href="#" className="text-blue-600 underline text-sm">
+            <a href="#" className="text-[#232323] underline text-[17px] font-medium font-lexend">
               Discover
             </a>
           </div>

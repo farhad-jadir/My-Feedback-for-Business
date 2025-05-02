@@ -4,12 +4,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-sm text-gray-700 py-8 border-t">
-      <div className="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-40 justify-center ">
+    <footer className="bg-[#ffffff] text-sm text-gray-700 py-8 border-t">
+      <div className="max-w-4xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-40 justify-center ">
         {/* About */}
         <div>
-          <h3 className="font-bold mb-2">About</h3>
-          <ul className="space-y-1">
+          <h3 className="font-extrabold mb-2 font-lexend text-kalo text-[20px]">About</h3>
+          <ul className="space-y-1 text-[14px] font-normal font-roboto text-[#5E5E5E]">
             <li>About MyFeedback</li>
             <li>Investor Relations</li>
             <li>Trust &amp; Safety</li>
@@ -22,8 +22,8 @@ const Footer = () => {
 
         {/* MyFeedback */}
         <div>
-          <h3 className="font-bold mb-2">MyFeedback</h3>
-          <ul className="space-y-1">
+          <h3 className="font-extrabold mb-2 font-lexend text-kalo text-[20px]">MyFeedback</h3>
+          <ul className="space-y-1 text-[14px] font-normal font-roboto text-[#5E5E5E]">
             <li>MyFeedback for business</li>
             <li>Collections</li>
             <li>Talk</li>
@@ -36,7 +36,7 @@ const Footer = () => {
 
         {/* Languages and Countries */}
         <div>
-          <h3 className="font-bold mb-2">Languages</h3>
+          <h3 className="font-extrabold mb-2 font-lexend text-kalo text-[20px]">Languages</h3>
           <select className="w-40 p-1 border border-gray-300 rounded mb-4">
             <option>English</option>
             <option>বাংলা (Bengali)</option>
@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
 
       {/* Footer bottom text */}
-      <div className="text-center text-gray-600 text-xs mt-6">
+      <div className="text-center text-gray-600 text-xs mt-16">
         Copyright © September 2023 myfeedback, designed by scott
       </div>
     </footer>
