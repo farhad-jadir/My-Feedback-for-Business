@@ -54,6 +54,34 @@
       "rating": 5.0,
       "reviews": 876,
       "image": "/images/lt8.png"
+    },
+    {
+      "name": "Iori",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 3.5,
+      "reviews": 334,
+      "image": "/images/lt9.png"
+    },
+    {
+      "name": "Ngalley",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 253,
+      "image": "/images/lt10.png"
+    },
+    {
+      "name": "diogonal",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 4.5,
+      "reviews": 654,
+      "image": "/images/lt11.png"
+    },
+    {
+      "name": "Kitoko",
+      "description": "The lorem ipsum is, in printing, a series of meaningless words used temporarily to calibrate a layout.",
+      "rating": 5.0,
+      "reviews": 876,
+      "image": "/images/lt12.png"
     }
   ]
   

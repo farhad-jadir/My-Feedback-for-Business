@@ -1,7 +1,9 @@
 import { useState } from "react";
 import RestaurantCarousel from "../Components/RestaurantCarousel";
 import Latest from "../Components/Latest";
-
+import Discover from "../Components/Discover";
+import Recent from "../Components/Recent";
+import Footer from "../Components/Footer";
 const categories = [
   { name: "All", img: "/images/Vector.png" },
   { name: "Restaurants", img: "/images/restu.png" },
@@ -39,6 +41,9 @@ export default function Home() {
       </div>
       <RestaurantCarousel/>
       <Latest/>
+      <Discover/>
+      <Recent/>
+      <Footer/>
     </div>
   );
 }
