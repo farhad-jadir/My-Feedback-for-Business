@@ -4,6 +4,7 @@ import Latest from "../Components/Latest";
 import Discover from "../Components/Discover";
 import Recent from "../Components/Recent";
 import Footer from "../Components/Footer";
+import Map from "../Pages/Map";
 const categories = [
   { name: "All", img: "/images/Vector.png" },
   { name: "Restaurants", img: "/images/restu.png" },
@@ -44,6 +45,7 @@ export default function Home() {
       <Discover/>
       <Recent/>
       <Footer/>
+      <Map/>
     </div>
   );
 }

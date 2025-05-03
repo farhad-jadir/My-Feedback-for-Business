@@ -1,0 +1,58 @@
+[
+  {
+    "name": "The snug",
+    "rating": 4.5,
+    "reviews": 654,
+    "image": "/images/bt1.png",
+    "stars": 4,
+    "city": "singapore"
+  },
+  {
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 1654,
+    "image": "/images/bt2.png",
+    "stars": 5,
+    "city": "singapore"
+  },
+  {
+    "name": "Little Shucker",
+    "rating": 3.0,
+    "reviews": 553,
+    "image": "/images/bt3.png",
+    "stars": 3,
+    "city": "singapore"
+  },
+  {
+    "name": "The snug",
+    "rating": 4.5,
+    "reviews": 654,
+    "image": "/images/bt4.png",
+    "stars": 4,
+    "city": "singapore"
+  },
+  {
+    "name": "Bottega",
+    "rating": 5.0,
+    "reviews": 1654,
+    "image": "/images/bt5.png",
+    "stars": 5,
+    "city": "singapore"
+  },
+  {
+    "name": "Little Shucker",
+    "rating": 3.0,
+    "reviews": 553,
+    "image": "/images/bt6.png",
+    "stars": 3,
+    "city": "singapore"
+  },
+  {
+    "name": "Little Shucker",
+    "rating": 3.0,
+    "reviews": 553,
+    "image": "/images/bt7.png",
+    "stars": 3,
+    "city": "singapore"
+  }
+]
